@@ -1,0 +1,18 @@
+Package: renvmanager
+Type: Package
+Title: Gerenciador do .Renviron
+Version: 0.1.0
+Authors@R: person("Pompylio", "Lima", email = "pompylio.lima@gmail.com", role = c("aut", "cre"))
+Maintainer: Pompylio Lima <pompylio.lima@gmail.com>
+Description: Ferramentas para gerenciar o arquivo .Renviron a partir de um addin Shiny.
+    Permite criar, editar e salvar variáveis de ambiente em escopos de projeto,
+    usuário ou caminho customizado.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
+Depends: R (>= 3.5.0)
+Imports:
+    shiny,
+    miniUI,
+    rstudioapi

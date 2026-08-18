@@ -1,0 +1,4 @@
+Name: Gerenciar .Renviron
+Description: Adiciona ou edita variáveis no arquivo .Renviron (Usuário, Projeto ou Personalizado) e reinicia o R.
+Binding: renviron_addin
+Interactive: true
